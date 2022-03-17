@@ -47,7 +47,7 @@ function getVueSidebar() {
       children: [
         { text: "快速开始", link: "/vue/hlyact/GettingStarted" },
         { text: "活动信息配置", link: "/vue/hlyact/ActivityInformation" },
-        { text: "配置微信分享", link: "/vue/hlyact/WeChatShare" },
+        { text: "配置微信相关功能", link: "/vue/hlyact/WeChat" },
         {
           text: "登录",
           children: [

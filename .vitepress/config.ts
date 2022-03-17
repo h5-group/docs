@@ -46,8 +46,9 @@ function getVueSidebar() {
       text: "和留言活动开发",
       children: [
         { text: "快速开始", link: "/vue/hlyact/GettingStarted" },
-        { text: "活动信息配置", link: "/vue/hlyact/ActivityInformation" },
-        { text: "配置微信相关功能", link: "/vue/hlyact/WeChat" },
+        { text: "配置活动信息", link: "/vue/hlyact/ActivityInformation" },
+        { text: "使用百度统计", link: "/vue/hlyact/BaiduTrack" },
+        { text: "微信相关功能", link: "/vue/hlyact/WeChat" },
         {
           text: "登录",
           children: [

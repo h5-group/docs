@@ -43,6 +43,15 @@ function getVueSidebar() {
       ],
     },
     {
+      text: "通用组件和功能",
+      link: "/vue/common/index",
+      children: [
+        { text: "网络请求", link: "/vue/common/XRequest" },
+        { text: "轻提示", link: "/vue/common/XToast" },
+        { text: "预处理输入框", link: "/vue/common/XInput" },
+      ],
+    },
+    {
       text: "和留言活动开发",
       children: [
         { text: "快速开始", link: "/vue/hlyact/GettingStarted" },

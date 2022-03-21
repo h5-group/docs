@@ -6,7 +6,9 @@
 
 ## 一般用法（带请求 Toast）
 
-XRequest.[method](url, [paramsObject],[configObject]);
+无论任何请求方式，统一使用如下格式请求
+
+`XRequest.[method](url, [paramsObject],[configObject]);`
 
 ```typescript
 import { XRequest } from "@/xcomponents";

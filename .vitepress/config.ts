@@ -49,12 +49,20 @@ function getVueSidebar() {
         { text: "网络请求", link: "/vue/common/XRequest" },
         { text: "轻提示", link: "/vue/common/XToast" },
         { text: "预处理输入框", link: "/vue/common/XInput" },
+        { text: "多国语言", link: "/vue/common/I18n" },
+        { text: "境强制开启控制台", link: "/vue/common/Debug" },
       ],
+    },
+    {
+      text: "常规项目开发",
+      link: "/vue/general/index",
+      children: [{ text: "快速开始", link: "/vue/general/GettingStarted" }],
     },
     {
       text: "和留言活动开发",
       children: [
         { text: "快速开始", link: "/vue/hlyact/GettingStarted" },
+        { text: "预设功能", link: "/vue/hlyact/GettingStarted" },
         { text: "配置活动信息", link: "/vue/hlyact/ActivityInformation" },
         { text: "使用百度统计", link: "/vue/hlyact/BaiduTrack" },
         { text: "微信相关功能", link: "/vue/hlyact/WeChat" },
@@ -74,11 +82,6 @@ function getVueSidebar() {
               text: "调试",
               link: "/vue/hlyact/",
             },
-            {
-              text: "任意环境强制开启控制台",
-              link: "/vue/hlyact/",
-            },
-
             {
               text: "AES加密秘钥配置",
               link: "/vue/hlyact/",

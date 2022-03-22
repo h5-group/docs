@@ -2,7 +2,10 @@
 
 ## 开发要求
 
-- 代码保存时需使用 Prettier 格式化代码以保证代码格式统一（需要开启保存时自动格式化: VSCode-> 首选项->设置->Format On Save）
+- 代码保存时需使用 Prettier 格式化代码以保证代码格式统一
+  ::: danger
+  请强制开启保存时自动格式化: `VSCode-> 首选项->设置->Format On Save`，保存其他项目时，可使用快捷键 `ctrl/command + k ctrl/command + shift + s` 进行不格式化保存
+  :::
 - 避免依赖问题，统一使用 pnpm 进行包管理，安装命令： `npm i pnpm -g`
 - 开发框架时使用严格使用 TypeScript，尽量避免使用 any 类型
 - 使用框架开发业务时无需使用 TypeScript，可直接混写 JS

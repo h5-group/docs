@@ -4,6 +4,11 @@
 
 **代码路径 `@/xcomponents/request/XRequest.ts`**
 
+#### 组件开发目的
+
+- 统一请求接口使用方式
+- 解决 axios 中 get、post 使用方式不统一问题
+
 ## 一般用法（带请求 Toast）
 
 无论任何请求方式，统一使用如下格式请求

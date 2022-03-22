@@ -36,7 +36,6 @@ function getVueSidebar() {
     {
       text: "指南",
       children: [
-        { text: "介绍", link: "/vue/index" },
         { text: "提前准备", link: "/vue/guide/Prepare" },
         { text: "代码风格", link: "/vue/guide/CodeStyle" },
         { text: "打包上线", link: "/vue/guide/Build" },
@@ -50,7 +49,7 @@ function getVueSidebar() {
         { text: "轻提示", link: "/vue/common/XToast" },
         { text: "预处理输入框", link: "/vue/common/XInput" },
         { text: "多国语言", link: "/vue/common/I18n" },
-        { text: "境强制开启控制台", link: "/vue/common/Debug" },
+        { text: "调试", link: "/vue/common/Debug" },
       ],
     },
     {

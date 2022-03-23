@@ -49,7 +49,7 @@ function getVueSidebar() {
         { text: "轻提示", link: "/vue/common/XToast" },
         { text: "预处理输入框", link: "/vue/common/XInput" },
         { text: "多国语言", link: "/vue/common/I18n" },
-        { text: "调试", link: "/vue/common/Debug" },
+        { text: "其他功能", link: "/vue/common/Other" },
       ],
     },
     {
@@ -65,28 +65,7 @@ function getVueSidebar() {
         { text: "配置活动信息", link: "/vue/hlyact/ActivityInformation" },
         { text: "使用百度统计", link: "/vue/hlyact/BaiduTrack" },
         { text: "微信相关功能", link: "/vue/hlyact/WeChat" },
-        {
-          text: "登录",
-          children: [
-            {
-              text: "蜂窝登录（一键登录）",
-              link: "/vue/hlyact/CellularLogin",
-            },
-          ],
-        },
-        {
-          text: "其他功能",
-          children: [
-            {
-              text: "调试",
-              link: "/vue/hlyact/",
-            },
-            {
-              text: "AES加密秘钥配置",
-              link: "/vue/hlyact/",
-            },
-          ],
-        },
+        { text: "登录", link: "/vue/hlyact/Login" },
       ],
     },
   ];
